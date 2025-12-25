@@ -97,7 +97,7 @@ The system recommends news articles by analyzing:
 ├── News.pkl                   # Supporting data file
 ├── .gitignore
 └── README.md
-
+```
 ## ▶️ **How to Run Locally**
 
 # Activate virtual environment
@@ -120,5 +120,6 @@ streamlit run app.py
 * Advanced evaluation metrics (**Precision, Recall, F1-score, MAP**)
 
 ---
+
 
 
