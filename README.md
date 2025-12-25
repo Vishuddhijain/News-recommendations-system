@@ -1,41 +1,46 @@
-```markdown
-# 📰 Personalized News Recommender System
+# 📰 **Personalized News Recommender System**
 
-A Streamlit-based news recommendation platform that helps users discover relevant news articles using **content-based and hybrid recommendation techniques**.
+A **Streamlit-based news recommendation platform** that helps users discover relevant news articles using **content-based and hybrid recommendation techniques**.
 
 🔗 **Live Demo (Deployed on Hugging Face Spaces):**  
-https://huggingface.co/spaces/Sirriusspec/news
+👉 https://huggingface.co/spaces/Sirriusspec/news
 
 ---
 
-## 📌 Project Overview
+## 📌 **Project Overview**
 
 In today’s digital era, users are overwhelmed by the massive volume of news published every minute.  
 This project addresses the challenge of **information overload** by delivering **personalized and relevant news recommendations** based on article similarity and user interaction data.
 
 The system recommends news articles by analyzing:
-- Article content similarity  
-- User reading behavior, ratings, and engagement time  
+- 📰 **Article content similarity**
+- 👤 **User reading behavior, ratings, and engagement time**
 
 ---
 
-## 📸 Application Screenshots
+## 📸 **Application Screenshots**
 
-### 🏠 Landing Page
+### 🏠 **Landing Page**
 *Smart landing screen with search, hashtags, and navigation options*
-![Landing Page](home.png)
+<p align="center">
+  <img src="home.png" width="900"/>
+</p>
 
-### 💜 Personalized Recommendations
+### 💜 **Personalized Recommendations**
 *User-specific recommendations based on reading history*
-![Personalized Recommendations](personalized.png)
+<p align="center">
+  <img src="personalized.png" width="900"/>
+</p>
 
-### 📰 Similar Articles
+### 📰 **Similar Articles**
 *Find news articles similar to a selected headline*
-![Similar Articles](similar_articles.png)
+<p align="center">
+  <img src="similar_articles.png" width="900"/>
+</p>
 
 ---
 
-## 🎯 Key Features
+## 🎯 **Key Features**
 
 - 🔍 **News Title-Based Recommendation**  
   Finds articles similar to a selected news title using textual similarity.
@@ -45,15 +50,15 @@ The system recommends news articles by analyzing:
 
 - 🧠 **Hybrid Recommendation Approach**  
   Combines:
-  - Content-Based Filtering (TF-IDF + Cosine Similarity)
-  - Collaborative signals (user ratings and engagement time)
+  - Content-Based Filtering (**TF-IDF + Cosine Similarity**)
+  - Collaborative signals (**user ratings and engagement time**)
 
 - 🎨 **Interactive Streamlit UI**  
   Clean and modern interface with hashtag-based search and card-style article display.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ **Technologies Used**
 
 - **Programming Language:** Python  
 - **Frontend Framework:** Streamlit  
@@ -66,26 +71,25 @@ The system recommends news articles by analyzing:
 
 ---
 
-## 🧩 Recommendation Methodology
+## 🧩 **Recommendation Methodology**
 
-### 1️⃣ Content-Based Filtering
+### 1️⃣ **Content-Based Filtering**
 - Converts news titles into TF-IDF feature vectors
 - Computes similarity using cosine similarity
 - Recommends articles with the highest semantic relevance
 
-### 2️⃣ Personalized Hybrid Recommendation
+### 2️⃣ **Personalized Hybrid Recommendation**
 - Incorporates:
   - User ratings
   - Time spent reading articles
 - Calculates weighted similarity scores
-- Filters out already-read articles to improve diversity
+- Filters out already-read articles to improve recommendation diversity
 
 ---
 
-## 📂 Project Structure
+## 📂 **Project Structure**
 
-```
-
+```text
 ├── app.py                     # Streamlit application
 ├── news_articles.pkl          # News dataset
 ├── similarity.pkl             # Precomputed similarity matrix
@@ -94,11 +98,10 @@ The system recommends news articles by analyzing:
 ├── .gitignore
 └── README.md
 
-````
 
 ---
 
-## ▶️ How to Run Locally
+## ▶️ **How to Run Locally**
 
 ```bash
 # Activate virtual environment
@@ -109,15 +112,17 @@ pip install -r requirements.txt
 
 # Run the Streamlit application
 streamlit run app.py
-````
+```
 
 ---
 
-## 🚀 Future Enhancements
+## 🚀 **Future Enhancements**
 
-* Integration of deep learning embeddings (Word2Vec, Doc2Vec, BERT)
+* Integration of deep learning embeddings (**Word2Vec, Doc2Vec, BERT**)
 * Feedback-based model refinement
 * Multilingual news recommendation support
-* Advanced evaluation metrics (Precision, Recall, F1-score, MAP)
+* Advanced evaluation metrics (**Precision, Recall, F1-score, MAP**)
 
 ---
+
+```
