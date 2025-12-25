@@ -98,12 +98,8 @@ The system recommends news articles by analyzing:
 ├── .gitignore
 └── README.md
 
-
----
-
 ## ▶️ **How to Run Locally**
 
-```bash
 # Activate virtual environment
 .\.venv\Scripts\Activate.ps1
 
@@ -124,4 +120,5 @@ streamlit run app.py
 * Advanced evaluation metrics (**Precision, Recall, F1-score, MAP**)
 
 ---
+
 
