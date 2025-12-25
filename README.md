@@ -99,7 +99,7 @@ The system recommends news articles by analyzing:
 └── README.md
 ```
 ## ▶️ **How to Run Locally**
-
+```
 # Activate virtual environment
 .\.venv\Scripts\Activate.ps1
 
@@ -120,6 +120,7 @@ streamlit run app.py
 * Advanced evaluation metrics (**Precision, Recall, F1-score, MAP**)
 
 ---
+
 
 
 
